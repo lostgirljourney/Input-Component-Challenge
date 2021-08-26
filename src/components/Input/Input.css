@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+.size-sm {
+	height: 40px;
+}
+
+.size-lg {
+	height: 56px;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.w-default {
+	width: 200px;
+}
+
+.primary {
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 8px;
+	outline: none;
+	padding: 0 12px;
+	font-family: "Noto Sans JP", sans-serif;
+	color: #333333;
+}
+
+.primary:hover {
+	outline: none;
+	border: 1px solid #333333;
+}
+
+.primary:focus,
+.primary:focus-within {
+	outline: none;
+	border: 1px solid #2962ff;
+}
+
+.primary:focus + .textcss,
+.primary:focus-within + .textcss {
+	color: #2962ff;
+}
+
+.error {
+	border: 1px solid #d32f2f;
+	box-sizing: border-box;
+	border-radius: 8px;
+	outline: none;
+	padding: 0 12px;
+	font-family: "Noto Sans JP", sans-serif;
+	color: #333333;
+}
+
+.error-label {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: "Ubuntu Mono", monospace;
+	color: #d32f2f;
+	margin-bottom: 4px;
+	line-height: 17px;
+	width: 31px;
+	height: 17px;
+}
+
+.error:hover {
+	outline: none;
+	border: 1px solid #333333;
+}
+
+.error:focus,
+.error:focus-within {
+	outline: none;
+	border: 1px solid #d32f2f;
+}
+
+.error:hover + label {
+	color: #333333;
+}
+
+.error:focus + label,
+.error:focus-within + label {
+	color: #d32f2f;
+}
+
+.disabled {
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	outline: none;
+	text-indent: 12px;
+	font-family: "Noto Sans JP", sans-serif;
+	color: #333333;
+	cursor: not-allowed;
+}
+
+.textarea-css {
+	padding: 18px 12px;
+	text-indent: 0;
+	line-height: 20px;
+}
+
+.call {
+	position: absolute;
+	top: 37.5px;
+	left: 12px;
+	margin-right: 35px;
+	color: #828282;
+}
+
+.lock {
+	position: absolute;
+	top: 37.5px;
+	right: 12px;
+	color: #828282;
+}
+
+.text-indent {
+	text-indent: 0;
+	padding-left: 45px;
+}
+
+.text-indent-r {
+	padding-right: 40px;
+}

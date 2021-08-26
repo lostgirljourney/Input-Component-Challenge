@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+div.button-body {
+  padding-left: 450px;
+  padding-top: 53px;
+}
+
+h1.topic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4f4f4f;
+  width: 93px;
+  height: 36px;
+  margin-bottom: 60px;
+}
+
+div.style {
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+
+div.stylex {
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+div.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  div.button-body {
+    padding-left: 50px;
+    padding-top: 53px;
+  }
+}
